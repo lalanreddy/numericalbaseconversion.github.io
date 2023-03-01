@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numerical Base Conversion</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+	<h1 class="h1">Numerical Base Conversion</h1>
+	<table >
+		<tr>
+			<th>Decimal</th>
+			<th>Decimal</th>
+			<th>Decimal</th>
+			<th>Decimal</th>
+		</tr>
+		<tr>
+			<td><input type="text" id="dec1" oninput="decToBin('dec1', 'bin1'); decToOct('dec1', 'oct1'); decToHex('dec1', 'hex1')" /></td>
+			<td><input type="text" id="dec2" oninput="decToBin('dec2', 'bin2'); decToOct('dec2', 'oct2'); decToHex('dec2', 'hex2')" /></td>
+			<td><input type="text" id="dec3" oninput="decToBin('dec3', 'bin3'); decToOct('dec3', 'oct3'); decToHex('dec3', 'hex3')" /></td>
+			<td><input type="text" id="dec4" oninput="decToBin('dec4', 'bin4'); decToOct('dec4', 'oct4'); decToHex('dec4', 'hex4')" /></td>
+		</tr>
+		<tr>
+			<th>Binary</th>
+			<th>Binary</th>
+			<th>Binary</th>
+			<th>Binary</th>
+		</tr>
+		<tr>
+			<td><input type="text" id="bin1" oninput="binToDec('bin1', 'dec1'); binToOct('bin1', 'oct1'); binToHex('bin1', 'hex1')" /></td>
+			<td><input type="text" id="bin2" oninput="binToDec('bin2', 'dec2'); binToOct('bin2', 'oct2'); binToHex('bin2', 'hex2')" /></td>
+			<td><input type="text" id="bin3" oninput="binToDec('bin3', 'dec3'); binToOct('bin3', 'oct3'); binToHex('bin3', 'hex3')" /></td>
+			<td><input type="text" id="bin4" oninput="binToDec('bin4', 'dec4'); binToOct('bin4', 'oct4'); binToHex('bin4', 'hex4')" /></td>
+		</tr>
+		<tr>
+			<th>Octal</th>
+			<th>Octal</th>
+			<th>Octal</th>
+			<th>Octal</th>
+		</tr>
+		<tr>
+			<td><input type="text" id="oct1" oninput="octToDec('oct1', 'dec1'); octToBin('oct1', 'bin1'); octToHex('oct1', 'hex1')" /></td>
+			<td><input type="text" id="oct2" oninput="octToDec('oct2', 'dec2'); octToBin('oct2', 'bin2'); octToHex('oct2', 'hex2')" /></td>
+			<td><input type="text" id="oct3" oninput="octToDec('oct3', 'dec3'); octToBin('oct3', 'bin3'); octToHex('oct3', 'hex3')" /></td>
+			<td><input type="text" id="oct4" oninput="octToDec('oct4', 'dec4'); octToBin('oct4', 'bin4'); octToHex('oct4', 'hex4')" /></td>
+</tr>
+<tr>
+<th>Hexadecimal</th>
+<th>Hexadecimal</th>
+<th>Hexadecimal</th>
+<th>Hexadecimal</th>
+</tr>
+<tr>
+<td><input type="text" id="hex1" oninput="hexToDec('hex1', 'dec1'); hexToBin('hex1', 'bin1'); hexToOct('hex1', 'oct1')" /></td>
+<td><input type="text" id="hex2" oninput="hexToDec('hex2', 'dec2'); hexToBin('hex2', 'bin2'); hexToOct('hex2', 'oct2')" /></td>
+<td><input type="text" id="hex3" oninput="hexToDec('hex3', 'dec3'); hexToBin('hex3', 'bin3'); hexToOct('hex3', 'oct3')" /></td>
+<td><input type="text" id="hex4" oninput="hexToDec('hex4', 'dec4'); hexToBin('hex4', 'bin4'); hexToOct('hex4', 'oct4')" /></td>
+</tr>
+</table>
+<script src="script.js"></script>
+
+</body>
+</html> 
+
+

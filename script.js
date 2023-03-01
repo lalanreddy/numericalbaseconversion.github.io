@@ -84,3 +84,4 @@ function hexToDec(hexId, decId) {
     document.getElementById(octId).value = oct;
     }
 
+	
