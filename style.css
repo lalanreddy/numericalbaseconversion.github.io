@@ -15,10 +15,92 @@ th {
 
 .h1{
  text-align: center;
- margin-top: 10%;
+ 
  color: aliceblue;
 }
 
 .body{
    background-color:  #808080;
 }
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	
+  }
+  
+  header {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 30px;
+  }
+  
+  h1 {
+	margin: 0;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+  }
+  
+  main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  section {
+	margin-bottom: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: smaller;
+  }
+  
+  h2 {
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-bottom: 10px;
+  }
+  
+  p {
+	margin: 0;
+	margin-bottom: 10px;
+  }
+  
+  a {
+	color: #007bff;
+	text-decoration: none;
+	border-bottom: 1px solid #007bff;
+  }
+  
+  a:hover {
+	background-color: #007bff;
+	color: #fff;
+	border-color: transparent;
+  }
+  
+  button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-size: 1em;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #0069d9;
+  }
+  
+  input {
+	font-size: 1em;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	width: 100%;
+  }
+  
